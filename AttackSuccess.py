@@ -9,7 +9,7 @@ from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.impute import SimpleImputer
 
 # Load the dataset
-df = pd.read_csv('global_terrorism_database.csv', encoding='ISO-8859-1')
+df = pd.read_csv('terror.csv', encoding='ISO-8859-1')
 
 # Preprocess the data
 # Replace 0 and 1 in the 'success' column with 'no' and 'yes'
